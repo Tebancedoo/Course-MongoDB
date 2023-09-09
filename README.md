@@ -57,6 +57,8 @@
 
 ## Usar MongoDB
 
+***
+
 #### Vamos a la carpeta de archivos, al disco local, luego a archivos del programa y a la carpeta mongoDB
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/a8a34b9c-28be-462b-bc6e-a9f25b29dd36)
@@ -108,6 +110,17 @@
 #### Ahora con el servidor ya iniciado, escribimos "mongo", para conectarnos al servidor
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b18300e4-63ae-42e4-8c8d-eb7d0385b4d1)
+
+#### Escribios "help", para que nos muestre los comandos que nos pueden ayudar
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/4ddf0c33-2991-43c2-90b5-270017fec4ad)
+
+***
+
+## Crear una base de datos en MongoDB
+
+
+
 
 
 
