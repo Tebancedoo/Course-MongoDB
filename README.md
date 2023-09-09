@@ -11,6 +11,20 @@
 
 ***
 
+## Descargar MongoDB
+
+#### Primero debemos ir a la pagina oficial de MongoDb : https://www.mongodb.com/es
+
+#### Despues buscaremos el el servidor gratuito de Mongo
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/d96f1399-7604-4d24-9302-3ee8b0d82b32)
+
+#### Luego nos mandara a otra pagina donde prodremos escojer la version de MongoDB que deseamos descargar.
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/5614ff8f-c717-43d4-b358-99b84a12d720)
+
+
+
 
 
 
