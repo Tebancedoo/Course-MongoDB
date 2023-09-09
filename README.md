@@ -57,6 +57,29 @@
 
 ## Usar MongoDB
 
+#### Vamos a la carpeta de archivos, al disco local, luego a archivos del programa y a la carpeta mongoDB
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/a8a34b9c-28be-462b-bc6e-a9f25b29dd36)
+
+#### Seguimos la siguente ruta, para iniciar el servido de MongoDB
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/779b4cb2-c914-44c8-9974-13f4300a6f19)
+
+#### Damos click a este equipo y a propiedades
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/9ef7c51d-47b8-44d5-8714-832b2a70ad76)
+
+#### Vamos a configuracion avanzada del sistema
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/408adaae-44de-4302-9d6e-467410bda632)
+
+#### Y a variables de entorno
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/6701e110-03de-426f-8cf2-e30d13814f76)
+
+
+
+
 
 
 
