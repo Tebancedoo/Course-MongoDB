@@ -77,6 +77,48 @@
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/6701e110-03de-426f-8cf2-e30d13814f76)
 
+#### Doble click a path
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/af4c7748-7e0b-4264-83a7-7383d9b36415)
+
+#### Despues a nuevo
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/adfecc70-09e1-4286-a487-9161115bc794)
+
+#### Copiamos la ruta para agragarla al path
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/39ad6cf5-d3b5-4aa2-b4a6-cfc0928aa39f)
+
+#### Copiamos la ruta al path, y le damos aceptar
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/0623456a-dd26-47aa-b2a6-e29d42013dec)
+
+#### Volvemos a darle aceptar
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/cdb28c62-eb28-40cd-ae95-3315c428c27e)
+
+#### Ya con el ambito global con mongo, vamos a la consola de comandos, tecla windows + r, y escribimos cmd
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/221ee267-e16e-484d-b869-6c1c946e7dce)
+
+#### Ahora bien con el cmd activo escribimos "mongod", nos deberá mandar lo siguiente:
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/5cdbad7e-e322-49ae-af67-663cab8ae36f)
+
+#### Ahora con el servidor ya iniciado, escribimos "mongo", para conectarnos al servidor
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b18300e4-63ae-42e4-8c8d-eb7d0385b4d1)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
