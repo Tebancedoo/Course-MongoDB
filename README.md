@@ -23,6 +23,38 @@
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/5614ff8f-c717-43d4-b358-99b84a12d720)
 
+#### Una vez descargado MongoDB, lo ejecutaremos
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/f7b144cd-8377-4478-99d1-7879d2a0275a)
+
+#### Le daremos en siguiente, y en acepto terminos y condiciones
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/d796661e-136d-4d85-9456-88a471cb3031)
+
+#### Le daremos click a "complete"
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/2d23cb2c-0519-49d8-af46-3e387012a07d)
+
+#### Luego a siguiente o next
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/2da9dbc3-2efb-4c2b-a46a-deecf84ab719)
+
+#### Otra vez a siguiente
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/80d8b129-c03d-4e7a-a8b9-4ab4d3a9263c)
+
+#### Y a instalar
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/c09cd93f-ff0d-40ee-91e2-00653bfc105a)
+
+#### Cuando termine de instalar nos aparecerá una ventana asi:
+
+
+
+
+
+
+
 
 
 
