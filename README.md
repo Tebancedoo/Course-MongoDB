@@ -119,6 +119,19 @@
 
 ## Crear una base de datos en MongoDB
 
+#### Para crear una base de datos en MongoDB, escribimos el siguente comando: "use Nombre_BD"
+
+~~~
+use pruebas1
+~~~
+
+#### Nos aparecerá el siguente mensaje:
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/04ece581-563f-4d1f-9e35-0e04272d3f69)
+
+
+
+
 
 
 
