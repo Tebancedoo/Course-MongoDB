@@ -260,13 +260,60 @@ db.usuario.find()
 var cursor = db.usuario.find()
 ~~~
 
+#### El objeto cursor tiene los siguientes métodos importantes:
+
+- cursor.count()	Devuelve el número total de documentos a los que hace referencia un cursor.
+- cursor.forEach()	Itera el cursor para aplicar una función de JavaScript a cada documento desde el cursor.
+- cursor.hasNext()	Devuelve verdadero si un cursor puede iterar más para devolver más documentos.
+- cursor.isExhausted()	Devuelve verdadero si el cursor está cerrado y no quedan objetos en el lote.
+- cursor.itcount()	Cuenta el número de documentos que quedan en un cursor.
+- cursor.limit()	Especifique el número máximo de documentos que devolverá el cursor.
+- cursor.map()	Aplica una función a cada documento visitado por el cursor y recopila los valores de retorno de aplicaciones sucesivas de la función en un objeto Cursor.
+- cursor.max()	Especifica el límite superior exclusivo para un índice específico para restringir los resultados de find().
+- cursor.min()	Especifica el límite inferior inclusivo para un índice específico para restringir los resultados de find().
+- cursor.next()	Devuelve el siguiente documento del conjunto de resultados.
+- cursor.bonita()	Muestra el resultado en formato legible.
+- cursor.readPreocupación()	Especifica un nivel de aislamiento para operaciones de lectura.
+- cursor.skip()	Omite el número especificado de documentos para la paginación.
+- cursor.ordenar()	Especifica el orden en el que la consulta devuelve documentos coincidentes.
+- cursor.toArray()	Devuelve una matriz que contiene todos los documentos de un cursor.
+
+***
+
+## Ordenar documentos en MongoDb
+
+#### Podemos utilizar el "cursor.sort()" método o "db.collection.find().sort()" para ordenar los documentos resultantes en un cursor según el orden especificado, de la siguente manera: db.Nombre_coleccion.find().sort(parametro_ordenamiento)
+
+~~~
+db.usuario.find().sort({Nombre:1})
+~~~
+
+#### Como pueden ver, me ordenó los documentos por nombre y en orden alfabetico
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/6ef7c3b8-6f6c-4900-ad6a-8ec4231ed0b5)
+
+***
+
+## Actualizar solo 1 documento
+
+#### Utilizamos el siguente comando para actualizar solo 1 documento "db.Nombre_coleccion.updateOne(filter, document, options)"
+
+~~~
+db.usuario.updateOne({Nombre:'Draco Perez'}, { $set: {Nacionalidad:'Colombiano'}}) 
+~~~
+
+#### Nos mostrara el siguente mensaje:
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/0ca12002-8298-42c4-b064-8f8f3ad58383)
 
 
+#### Varificar que haya actualizado:
 
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b622d4d7-116c-4083-b839-aba5e55b685c)
 
+***
 
-
-
+##
 
 
 
