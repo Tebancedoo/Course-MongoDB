@@ -192,7 +192,40 @@ db.usuario.find();
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/fecc907d-0f51-40b0-8933-639c91cf58c7)
 
+***
 
+## Insertar multiples documentos
+
+#### Para insertar multiples documentos a una colleciones hacemos los mismo que insertando 1, pero con la diferencia de que los separamos por ","
+
+~~~
+db.usuario.insert([
+
+{
+Nombre: 'Draco Perez',
+Nacionalidad: 'Peruano'
+},
+
+{
+Nombre: 'Brayan',
+Nacionalidad: 'Brasileño'
+},
+
+{
+Nombre: 'Pepe',
+Nacionalidad: 'Argentino'
+}
+
+]);
+~~~
+
+#### Y nos mostrará el siguiente mensaje
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/0403c0d3-f302-4fa9-892e-a2a1f3f22a30)
+
+***
+
+##
 
 
 
