@@ -129,6 +129,51 @@ use pruebas1
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/04ece581-563f-4d1f-9e35-0e04272d3f69)
 
+***
+
+## MOstrar las Bases de DAtos
+
+#### Para mostrar las bases de datos, utilizaremos el comando "show dbs;"
+
+~~~
+show dbs;
+~~~
+
+#### Y nos mostrará las bases de datos, mostrando que actualmente no tiene ningun contenido
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/1d8671e7-a2a7-4bfd-b626-4534fcf4e2b1)
+
+***
+
+## Añadir contenido a una base de datos
+
+#### Para crer contenido utilizamos el siguente comando: "db.Nombre_coleecion.save(objeto_jason)"
+
+~~~
+db.usuario.save({ Nombre: 'Tebancedoo', Nacionalidad: 'Colombiano'});
+~~~
+
+#### Nos mostrará el siguente mensaje, indicando que se creo exitosamente
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/e837825d-0707-417d-a3ca-7521be0171c3)
+
+#### Ahora volvemos a utilizar el comando para verificar que nuestra base de datos ya se encuentre creada
+
+~~~
+show dbs;
+~~~
+
+#### Como pueden ver la base de datos "pruebas1" ya se encuentra creada
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b84bd7ea-31e4-4a2d-9c1a-2fdacbe7af8e)
+
+
+
+
+
+
+
+
 
 
 
