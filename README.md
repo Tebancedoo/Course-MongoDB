@@ -168,6 +168,10 @@ show dbs;
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b84bd7ea-31e4-4a2d-9c1a-2fdacbe7af8e)
 
+***
+
+## Mostrar las colecionesy los documentos
+
 #### Y mostramos la coleccion creada
 
 ~~~
@@ -178,8 +182,15 @@ show collections;
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/2e7eeab2-4572-40bc-8c9e-1ce374df9ee2)
 
+#### Para mostrar los documentos en una coleccion utulizamos el comando "db.Nombre_Coleccion.find();"
 
+~~~
+db.usuario.find();
+~~~
 
+#### Muestra el documento
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/fecc907d-0f51-40b0-8933-639c91cf58c7)
 
 
 
