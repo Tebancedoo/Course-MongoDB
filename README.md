@@ -296,7 +296,7 @@ db.usuario.find().sort({Nombre:1})
 
 ## Actualizar solo 1 documento
 
-#### Utilizamos el siguente comando para actualizar solo 1 documento "db.Nombre_coleccion.updateOne(filter, document, options)"
+#### Utilizamos el siguente comando para actualizar solo 1 documento: "db.Nombre_coleccion.updateOne(filter, document, options)"
 
 ~~~
 db.usuario.updateOne({Nombre:'Draco Perez'}, { $set: {Nacionalidad:'Colombiano'}}) 
@@ -313,11 +313,22 @@ db.usuario.updateOne({Nombre:'Draco Perez'}, { $set: {Nacionalidad:'Colombiano'}
 
 ***
 
-##
+## Actualizar varios documentos
+
+#### Utilizamos el siguente comando para actualizar varios documentos: "db.collection.updateMany(filter, document, options)"
 
 
+~~~
+db.usuario.updateMany({ Nacionalidad:'Colombiano' }, { $set: { Nacionalidad: 'Null' }}) 
+~~~
 
+#### Mensaje mostrado
 
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/14e156ba-c67b-4870-a1aa-da4eec3efe2f)
+
+#### Varificar que haya actualizado: 
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/a5ad5b67-a707-4aa6-a94f-40f2716a82a7)
 
 
 
