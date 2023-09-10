@@ -170,7 +170,7 @@ show dbs;
 
 ***
 
-## Mostrar las colecionesy los documentos
+## Mostrar las coleciones y los documentos
 
 #### Y mostramos la coleccion creada
 
