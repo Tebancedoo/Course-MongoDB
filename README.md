@@ -364,12 +364,62 @@ db.usuario.deleteMany({ Nacionalidad:'Null' })
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/956e50f4-811a-4f6c-80c4-9375be1935ad)
 
+***
 
+## Relaciones en MongoDB
 
+#### En MongoDB, las relaciones uno a uno, uno a muchos y muchos a muchos se pueden implementar de dos maneras:
 
+- Usando documentos incrustados
+- Utilizar la referencia de documentos de otra colección
 
+#### Releciones con documento incrustado
 
+#### Puede incluir datos relacionados como documentos incrustados. Por ejemplo, puede incluir una dirección como documento incrustado, como se muestra a continuación. 
 
+~~~
+db.employee.insertOne({
+     _id: ObjectId("32521df3f4948bd2f54218"),
+    firstName: "John",
+    lastName: "King",
+    email: "john.king@abc.com",
+    salary: "33000",
+    DoB: new Date('Mar 24, 2011'),
+    address: { 
+                street:"Upper Street",
+                house:"No 1",
+                city:"New York",
+                country:"USA"
+            }
+})
+~~~
+
+#### Releciones usando referencias
+
+#### Otra forma de implementar relaciones es utilizar la referencia del campo de clave principal de documentos de otra colección. Por ejemplo, cree addressuna colección y utilícela _idcomo referencia de un documento de la employeecolección.
+
+~~~
+db.address.insertOne({
+     _id: 101,
+    street:"Upper Street",
+    house:"No 1",
+    city:"New York",
+    country:"USA"
+})
+
+db.employee.insertOne({
+    firstName: "John",
+    lastName: "King",
+    email: "john.king@abc.com",
+    salary: "33000",
+    DoB: new Date('Mar 24, 2011'),
+    address: 101
+})
+~~~
+
+***
+
+## 
 
 
 
