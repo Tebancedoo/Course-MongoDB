@@ -330,9 +330,39 @@ db.usuario.updateMany({ Nacionalidad:'Colombiano' }, { $set: { Nacionalidad: 'Nu
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/a5ad5b67-a707-4aa6-a94f-40f2716a82a7)
 
+***
 
+## Eliminar documentos 
 
+#### Para eliminar documentos usamos el siguiente comando "db.Nombre_coleccion.deleteOne(filter, options)" para eliminar 1 y para varios documentow "db.Nombre_coleccion.deleteMany(filter, options)"
 
+#### Eliminarmos un documento
+
+~~~
+db.usuario.deleteOne({ Nacionalidad: 'Brasileño' }) 
+~~~
+
+#### Mensaje mostrado al eliminar
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/007b70c0-4235-4ef1-86df-61f255230358)
+
+#### Verificamos
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/6978e78e-223b-472a-9ebd-6d2a28b4aafe)
+
+#### Eliminamos varios documentos
+
+~~~
+db.usuario.deleteMany({ Nacionalidad:'Null' }) 
+~~~
+
+#### Mensaje mostrado
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/110d4777-5ac8-45be-a1cd-16cdf4b22802)
+
+#### Verificamos
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/956e50f4-811a-4f6c-80c4-9375be1935ad)
 
 
 
