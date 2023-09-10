@@ -168,6 +168,19 @@ show dbs;
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/b84bd7ea-31e4-4a2d-9c1a-2fdacbe7af8e)
 
+#### Y mostramos la coleccion creada
+
+~~~
+show collections;
+~~~
+
+#### Nos muestra la coleccion usuario
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/2e7eeab2-4572-40bc-8c9e-1ce374df9ee2)
+
+
+
+
 
 
 
