@@ -224,7 +224,33 @@ Nacionalidad: 'Argentino'
 
 ***
 
-##
+## Encontrar 1 documento
+
+#### Para encontrar un documento usamos el comando "db.Nombre_Coleccion.findOne()"
+
+~~~
+db.usuario.findOne()
+~~~
+
+#### Nos mostrará el primer docuemento de la collecion, predeterminadamente
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/8d51b437-f9b1-4995-b3e5-9f00838c34d1)
+
+***
+
+## Encontrar varios documentos
+
+#### Para encontrar varios documentos usaremos el comando "db.Nombre_Coleccion.find()"
+
+~~~
+db.usuario.find()
+~~~
+
+#### Nos mostrará todos los documentos que esten en la colecion selecionada
+
+![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/76ab00e6-cd2d-4611-b115-5e9308a5bd90)
+
+
 
 
 
