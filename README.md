@@ -11,8 +11,7 @@
 
 ***
 
-## Descargar MongoDB![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/0d69decc-e924-4cf2-a2d0-43af5be108c1)
-
+## Descargar MongoDB
 
 #### Primero debemos ir a la pagina oficial de MongoDb : https://www.mongodb.com/es
 
