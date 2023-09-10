@@ -250,6 +250,18 @@ db.usuario.find()
 
 ![image](https://github.com/Tebancedoo/Course-MongoDB/assets/115185706/76ab00e6-cd2d-4611-b115-5e9308a5bd90)
 
+***
+
+## El cursor de MongoDB
+
+#### El find()método devuelve un objeto de cursor que se puede utilizar para iterar el resultado. El siguiente ejemplo obtiene el objeto del cursor y lo asigna a una variable.
+
+~~~
+var cursor = db.usuario.find()
+~~~
+
+
+
 
 
 
