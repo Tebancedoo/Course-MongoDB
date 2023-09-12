@@ -131,7 +131,7 @@ use pruebas1
 
 ***
 
-## Mostrar las Bases de DAtos
+## Mostrar las Bases de Datos
 
 #### Para mostrar las bases de datos, utilizaremos el comando "show dbs;"
 
