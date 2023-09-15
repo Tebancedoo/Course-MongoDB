@@ -366,6 +366,16 @@ db.usuario.deleteMany({ Nacionalidad:'Null' })
 
 ***
 
+## Vistas en MongoDB
+
+####  Las vistas actúan como colecciones de solo lectura y se calculan según demanda durante las operaciones de lectura. Debe crear vistas en la misma base de datos que la colección de origen. 
+
+~~~
+db.createView()
+~~~
+
+***
+
 ## Relaciones en MongoDB
 
 #### En MongoDB, las relaciones uno a uno, uno a muchos y muchos a muchos se pueden implementar de dos maneras:
