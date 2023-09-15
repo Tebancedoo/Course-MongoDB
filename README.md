@@ -371,7 +371,7 @@ db.usuario.deleteMany({ Nacionalidad:'Null' })
 ####  Las vistas actúan como colecciones de solo lectura y se calculan según demanda durante las operaciones de lectura. Debe crear vistas en la misma base de datos que la colección de origen. 
 
 ~~~
-db.createView()
+db.createView(<view>, <source>, <pipeline>, <collation>)
 ~~~
 
 ***
