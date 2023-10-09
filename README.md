@@ -406,7 +406,7 @@ db.employee.insertOne({
 
 #### Releciones usando referencias
 
-#### Otra forma de implementar relaciones es utilizar la referencia del campo de clave principal de documentos de otra colección. Por ejemplo, cree addressuna colección y utilícela _idcomo referencia de un documento de la employeecolección.
+#### Otra forma de implementar relaciones es utilizar la referencia del campo de clave principal de documentos de otra colección. Por ejemplo, cree address una colección y utilíce el  _id como referencia de un documento de la employeecolección.
 
 ~~~
 db.address.insertOne({
