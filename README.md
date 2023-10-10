@@ -155,7 +155,7 @@ db.usuario.save({ Nombre: 'Tebancedoo', Nacionalidad: 'Colombiano'});
 #### O
 
 ~~~
-db.createcolletion("usuario")
+db.createColletion("usuario")
 ~~~
 
 #### Nos mostrará el siguente mensaje, indicando que se creo exitosamente
