@@ -130,6 +130,14 @@
 
 ***
 
+## Operadores logicos en MongoDb
+
+- No | $not
+- Y | $and
+- O | $or
+
+***
+
 ## Crear una base de datos en MongoDB
 
 #### Para crear una base de datos en MongoDB, escribimos el siguente comando: "use Nombre_BD"
