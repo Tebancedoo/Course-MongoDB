@@ -153,7 +153,7 @@ db.createColletion("usuario")
 
 ***
 
-## Añadir contenido a una base de datos
+## Añadir contenido a una colecciòn
 
 #### Para crer contenido utilizamos el siguente comando: "db.Nombre_coleecion.save(objeto_jason)"
 
