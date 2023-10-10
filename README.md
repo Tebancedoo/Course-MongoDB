@@ -152,6 +152,11 @@ show dbs;
 ~~~
 db.usuario.save({ Nombre: 'Tebancedoo', Nacionalidad: 'Colombiano'});
 ~~~
+#### O
+
+~~~
+db.createcolletion("usuario")
+~~~
 
 #### Nos mostrará el siguente mensaje, indicando que se creo exitosamente
 
