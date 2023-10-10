@@ -145,6 +145,14 @@ show dbs;
 
 ***
 
+## Crear una colecciòn
+
+~~~
+db.createColletion("usuario")
+~~~
+
+***
+
 ## Añadir contenido a una base de datos
 
 #### Para crer contenido utilizamos el siguente comando: "db.Nombre_coleecion.save(objeto_jason)"
@@ -152,10 +160,11 @@ show dbs;
 ~~~
 db.usuario.save({ Nombre: 'Tebancedoo', Nacionalidad: 'Colombiano'});
 ~~~
+
 #### O
 
 ~~~
-db.createColletion("usuario")
+db.usuario.insertOne({ Nombre: 'Tebancedoo', Nacionalidad: 'Colombiano'});
 ~~~
 
 #### Nos mostrará el siguente mensaje, indicando que se creo exitosamente
