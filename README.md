@@ -117,6 +117,19 @@
 
 ***
 
+## Operadores relacionales en MongoDB
+
+- Igual | $eq
+- Menor que | $lt
+- Menor o igual que | $lte
+- Mayor que | $gt
+- Mayor o igual que | $gte
+- Distinto | $ne
+- Dentro de | $in
+- No dentro de | $nin
+
+***
+
 ## Crear una base de datos en MongoDB
 
 #### Para crear una base de datos en MongoDB, escribimos el siguente comando: "use Nombre_BD"
