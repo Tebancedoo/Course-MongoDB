@@ -169,7 +169,7 @@ show dbs;
 ## Crear una colecciòn
 
 ~~~
-db.createColletion("usuario")
+db.createCollection("usuario");
 ~~~
 
 ***
