@@ -403,7 +403,14 @@ db.usuario.deleteMany({ Nacionalidad:'Null' })
 
 ## Eliminar una base de datos
 
+~~~
 
+db.dropDatabase(Nombre_BaseDeDatos)
+
+
+~~~
+
+***
 
 ## Vistas en MongoDB
 
