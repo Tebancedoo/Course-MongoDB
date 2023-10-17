@@ -317,7 +317,7 @@ var cursor = db.usuario.find()
 
 ## Ordenar documentos en MongoDb
 
-#### Podemos utilizar el "cursor.sort()" método o "db.collection.find().sort()" para ordenar los documentos resultantes en un cursor según el orden especificado, de la siguente manera: db.Nombre_coleccion.find().sort(parametro_ordenamiento)
+#### Podemos utilizar el "cursor.sort()" método o "db.collection.find().sort()" para ordenar los documentos resultantes en un cursor según el orden especificado, de la siguente manera: db.Nombre_coleccion.find().sort(parametro_ordenamiento) (1 = forma ascendente -1 forma descendente)
 
 ~~~
 db.usuario.find().sort({Nombre:1})
